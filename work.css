@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&display=swap');
+*{
+    color: #21243D;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+}
+.home-btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 27px 50px;
+}
+.home-btn img{
+    height: 30px;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    color: #000;
+    font-size: 20px;
+    margin: 27px;
+}
+nav a{
+    margin-right: 33px;
+    font-weight: 500;
+}
+nav a.active{
+    color: #FF6464;
+}
+.work-body{
+    margin: 130px 235px;
+}
+.work-body h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.work{
+    cursor: pointer;
+    display: flex;
+    padding: 40px 0;
+    border-bottom: 1px solid #E0E0E0;
+}
+.work img{
+    margin-right: 30px;
+    width: 250px;
+}
+.work h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.work-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.work-desc p{
+    font-size: 20px;
+    color: #8695A4;
+}
+.work-desc span{
+    background: #21243D;
+    border-radius: 16px;
+    padding: 0 10px;
+    color: #fff;
+    margin-right: 30px;
+}
+.work-desc h4{
+    font-size: 18px;
+    font-weight: 400;
+}
+footer{
+    padding: 0px 0px 60px;
+}
+.socials{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+footer img{
+    height: 30px;
+    margin: 35px;
+    cursor: pointer;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+}
